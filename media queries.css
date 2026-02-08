@@ -1,0 +1,120 @@
+/* MOBILE STYLE */
+
+@media (max-width: 768px) {
+  /* NAVBAR */
+
+  .menu-icon {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1001;
+    color: #1e2e4e;
+  }
+
+  .open-icon {
+    display: inline-block;
+  }
+
+  .close-icon {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* padding: 0.8rem 1rem; */
+  }
+
+  .nav-links {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 90%;
+    height: 100vh;
+    background: #faedcd;
+    padding: 0.8rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    z-index: 1000;
+  }
+
+  .nav-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+  }
+
+  .nav-links ul a {
+    font-size: 1.3rem;
+  }
+
+  .nav-links ul a:hover {
+    background-color: #fff;
+    color: #6189c9;
+  }
+
+  #nav-toggle:checked ~ .menu-icon .open-icon {
+    display: none;
+  }
+
+  #nav-toggle:checked ~ .menu-icon .close-icon {
+    display: inline-block;
+  }
+
+  
+#nav-toggle:checked ~ .nav-links {
+  display: flex;
+}
+
+  .menu-icon {
+    order: 3;
+  } /* push icon to right */
+  .nav-logo {
+    order: 1;
+  } /* logo left */
+  .nav-btn {
+    order: 2;
+  } /* stays near logo on desktop */
+
+  .nav-btn {
+    display: none;
+  }
+
+  /* HERO SECTION */
+
+  .hero-content {
+    flex-direction: column;
+  }
+
+  /* FEATURES SECTION */
+
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+
+/* HOW IT WORKS SECTION */
+
+
+  .steps-content {
+    flex-direction: column;
+  }
+
+
+.cta-container h2 {
+    font-size: 2rem;
+  }
+
+  .cta-container p {
+    font-size: 1rem;
+  }
+}

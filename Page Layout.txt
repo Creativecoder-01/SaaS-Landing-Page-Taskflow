@@ -1,0 +1,99 @@
+SAAS LANDING PAGE LAYOUT
+
+We’ll build 7 sections only — this covers all important layout skills:
+
+Navbar
+
+Logo
+
+Links
+
+CTA button
+
+Hero Section
+
+Headline
+
+Description
+
+2 buttons (Primary + Secondary)
+
+App mockup image
+
+Features Section (Grid practice 💪)
+
+3 feature cards
+
+Icon + title + text
+
+How It Works (Flexbox layout practice)
+
+3 steps (numbered)
+
+Pricing Section (Card design skill)
+
+2 pricing cards
+
+“Popular” badge on one
+
+Testimonials
+
+2 user reviews
+
+Footer
+
+Links
+
+Social icons
+
+🧠 Skills You’ll Practice
+Section	Dev Skill
+Navbar	Flexbox alignment
+Hero	Layout balance
+Features	Grid system
+Steps	Flex layout
+Pricing	Cards + highlighting
+Testimonials	Content alignment
+Footer	Multi-column layout
+
+That’s a real-world frontend skill set.
+
+🎨 Locked Design System (important)
+
+We stick to this — no design chaos later.
+
+Primary Color: #3B82F6
+Accent Color: #8B5CF6
+Dark Text: #111827
+Light BG: #F9FAFB
+
+Fonts:
+
+Headings → Poppins
+
+Body → Inter
+
+System > mood. Always.
+
+🧩 Project Name
+
+TaskFlow — Organize work. Finish faster.
+
+
+
+
+<body>
+
+<header> → Navbar</header>
+
+<main>
+   <section>Hero</section>
+   <section>Features</section>
+   <section>How It Works</section>
+   <section>Pricing</section>
+   <section>Testimonials</section>
+</main>
+
+<footer>Footer</footer>
+
+</body>
